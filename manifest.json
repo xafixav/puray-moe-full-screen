@@ -1,0 +1,23 @@
+{
+  "name": "puray-moe-full-screen",
+  "version": "0.0.1",
+  "description": "Set puray-moe videos into auto-full-screen.",
+  "manifest_version": 3,
+  "author": "Xafixav",
+  "action":{
+      "default_popup": "options.html",
+      "default_title": "Options for puray-moe"
+  },
+  "content_scripts": [
+    { "matches": 
+      [
+      "https://puray.moe/watch/*",
+      "http://puray.moe/watch/*"
+      ],
+      "js": ["puray.js"]
+    }
+    ],
+  "permissions": [
+      "storage"
+    ]
+}

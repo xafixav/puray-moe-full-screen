@@ -16,6 +16,7 @@ class FullScreen {
     const body = document.querySelector('body');
     body.append(this.videoPlayer);
     this.videoPlayer.firstChild.style.height = '100%';
+    this.videoPlayer.firstChild.style.width = '100%';
     console.log(this.videoPlayer.style.height);
     const appPage = document.querySelector("#app")
     appPage.remove();

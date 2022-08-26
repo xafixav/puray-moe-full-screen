@@ -1,4 +1,4 @@
->Como utilizar a extensão:
+##Como utilizar a extensão:
 
 -baixe o .zip dela clicando em `Code` la em cima e em seguida: download ZIP.
 -abra o google chrome e clique no simbolo de `extensoes` no topo da tela e depois em `gerir extensoes`
